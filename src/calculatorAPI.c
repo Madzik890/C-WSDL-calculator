@@ -14,7 +14,7 @@ const char * s_divideCommand = "#Divide";// \
 /// </WSDL commands>
 
 /// <summary>
-/// Prepare all objects to start work with the postivo API.
+/// Prepare all objects to start work with the Calculator API.
 /// </summary>
 void startCalculatorAPI()
 {
@@ -23,7 +23,7 @@ void startCalculatorAPI()
 }
 
 /// <summary>
-/// Release a memory from the postivo API members.
+/// Release a memory from the Calculator API members.
 /// </summary>
 void closeCalculatorAPI()
 {
@@ -75,7 +75,7 @@ const int subtractionOperation(const int firstNumber, const int secondNumber)
 /// </summary>
 /// <param name="firstNumber">The first number of mathematical activity.</param>
 /// <param name="firstNumber">The second number of mathematical activity.</param>
-/// <returns> Returns the result of subtracting. </returns>
+/// <returns> Returns the result of multiplying. </returns>
 const int multiplyOperation(const int firstNumber, const int secondNumber)
 {
   struct _tempuri__Multiply m_multiSend;
@@ -94,7 +94,7 @@ const int multiplyOperation(const int firstNumber, const int secondNumber)
 /// </summary>
 /// <param name="firstNumber">The first number of mathematical activity.</param>
 /// <param name="firstNumber">The second number of mathematical activity.</param>
-/// <returns> Returns the result of subtracting. </returns>
+/// <returns> Returns the result of dividing. </returns>
 const int divideOperation(const int firstNumber, const int secondNumber)
 {
   struct _tempuri__Divide m_diviSend;
